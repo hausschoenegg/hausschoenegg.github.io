@@ -10,11 +10,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-</style>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
+<!--HEADER -->
   <div id="header" class="jumbotron jumbotron-fluid">
     <div class="container-fluid text-center">
       <h1>Haus Schönegg</h1>
@@ -22,16 +24,73 @@
     </div>
   </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h2> WILLKOMMEN IM HAUS SCHÖNEGG</h2>
-      <p>
-        Sie finden unser Haus mit drei gemütlichen Appartements in ruhiger Lage im sonnigen Ortsteil Nasserein, mit imposanten Blick auf St.Anton und seine Berglandschaft. Hier kann man einfach abschalten und die Ruhe genießen. Dennoch ist auch das lebhafte Zentrum nur 15 Gehminuten entfernt. Die Nassereinbahn, eine der Hauptzubringerbahnen in unser einzigartiges Schigebiet sowie die Schischule mit Kinderland erreicht man von uns aus zu Fuß in 10 Minuten auch mit dem gratis Schibus, eine Haltestelle ist in der Nähe. Erleben auch Sie einen unvergesslichen Urlaub am Arlberg – wir freuen uns auf Ihre Anfrage! Familie Staggl
-      </p>
+<!--Intro -->
+<div id="welcome">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center"> WILLKOMMEN IM <bold> HAUS SCHÖNEGG</bold> </h2>
+        <h3>
+          Sie finden unser Haus mit drei gemütlichen Appartements in ruhiger Lage im sonnigen Ortsteil Nasserein, mit imposanten Blick auf St.Anton und seine Berglandschaft. Hier kann man einfach abschalten und die Ruhe genießen. Dennoch ist auch das lebhafte Zentrum nur 15 Gehminuten entfernt. Die Nassereinbahn, eine der Hauptzubringerbahnen in unser einzigartiges Schigebiet sowie die Schischule mit Kinderland erreicht man von uns aus zu Fuß in 10 Minuten auch mit dem gratis Schibus, eine Haltestelle ist in der Nähe. Erleben auch Sie einen unvergesslichen Urlaub am Arlberg – wir freuen uns auf Ihre Anfrage! Familie Staggl
+        </h3>
+      </div>
     </div>
   </div>
-</div> 
+</div>
+
+
+<!--Appartements -->
+<div id="grey" class="container-fluid">
+  <div class="container">
+    <div id="accordion">
+      <div id="appartement" class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            <h2> Appartement A </h2>
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            <p>Befindet sich im Erdgeschoss des Hauses mit 65m<sup>2</sup> und ist für <b>5</b> Personen, mit einem Doppelbett Zimmer und einem Dreibettzimmer, Bad(Badewanne, Doppelwaschbecken, Fön), WC extra, Wohnraum mit Küchenzeile, Esstisch, Kabel-TV und Terrasse.
+                      <br><br> Die Küchenzeile ist jeweils mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
+                      <br>In jedem Wohnraum befindet sich ein Sofa, in dem eventuell <b>eine zusätzliche Person<b> nächtigen kann (nur nach vorheriger Absprache!</b></b></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="appartement" class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            <h2> Appartement B </h2>
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p>Befindet sich im ersten Stock des Hauses mit 65m<sup>2</sup> und ist für <b>5</b> Personen mit einem Doppelbettzimmer und einem Dreibettzimmer, Bad/WC und Dusche/WC, Wohnraum mit Küchenzeile, Esstisch, Kabel-TV und Balkon.
+            <br><br> Die Küchenzeile ist jeweils mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
+            <br>In jedem Wohnraum befindet sich ein Sofa, in dem eventuell <b>eine zusätzliche Person<b> nächtigen kann (nur nach vorheriger Absprache!)</b></b></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="appartement" class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            <h2> Appartement C </h2>
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p>Befindet sich im Dachgeschoss des Hauses mit 45m<sup>2</sup> und ist für <b>4</b> Personen mit einem Doppelbettzimmer und einem Zweibettzimmer, Bad(Wanne, Doppelwaschbecken, Fön), WC extra, Wohnraum mit Küchenzeile, Esstisch, Kabel-TV und Balkon.
+            <br><br> Die Küchenzeile ist jeweils mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
+            <br>In jedem Wohnraum befindet sich ein Sofa, in dem eventuell <b>eine zusätzliche Person<b> nächtigen kann (nur nach vorheriger Absprache!</b></b></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 </body>
 

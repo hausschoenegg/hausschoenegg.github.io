@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f2f2;
+  /*background-color: #f2f2f2;*/
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("../img/headerbg.jpg");
   background-size: cover;
 	background-attachment: scroll;
-	min-height: 700px;
+	min-height: 600px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -46,4 +46,29 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 50px;
 	font-weight: 100;
 	letter-spacing: 2px;
+}
+#welcome {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#welcome h2 {
+	font-weight: 700;
+	color: #7b7b7b;
+	letter-spacing: 1px;
+}
+
+#welcome bold {
+	color: #2f2f2f;
+}
+
+#welcome h3 {
+  font-weight: 700;
+  color: #7b7b7b;
+  letter-spacing: 1px;
+}
+
+
+#grey{
+    background-color: #f2f2f2;
 }
