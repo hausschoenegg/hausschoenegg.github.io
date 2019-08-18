@@ -19,29 +19,26 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   background-image: url("../img/headerbg.jpg");
   background-size: cover;
-    background-attachment: scroll;
+	background-attachment: scroll;
+	min-height: 600px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #header h1 {
-    color: white;
-    font-size: 5em;
-    font-weight: 700;
-}
-
-@media(max-width: 768){
-    #header h1 {
-        color: white;
-        font-size: 4em;
-        font-weight: 700;
-    }
-}
-
-@media(max-width: 525){
-    #header h1 {
-        color: white;
-        font-size: 3em;
-        font-weight: 700;
-    }
+	margin-top: 130px;
+	color: white;
+	font-size: 5em;
+	font-weight: 700;
 }
 
 #header h2 {
@@ -53,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 #welcome {
 	padding-top: 35px;
 	padding-bottom: 35px;
-    text-align: center;
 }
 
 #welcome h2 {
@@ -76,7 +72,3 @@ h1, h2, h3, h4, h5, h6 {
 #grey{
     background-color: #f2f2f2;
 }
-
-html, body {
-    overflow-x:hidden
-} 

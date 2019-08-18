@@ -1,97 +1,591 @@
 <!DOCTYPE html>
+
 <html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <title>Haus Schoenegg</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css">
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-<body>
 
-<!--HEADER -->
-  <div id="header" class="jumbotron jumbotron-fluid">
-    <div class="container-fluid text-center">
-      <h1>Haus Schönegg</h1>
-      <h2>Ferienappartement St.Anton</h2>
-    </div>
-  </div>
+   <!--  <link rel="shortcut icon" href="assets/ico/favicon.png"> -->
 
-<!--Intro -->
-<div id="welcome">
+    <title>Haus Sch&ouml;negg</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+    <script src="assets/js/jquery.min.js"></script>
+
+
+
+  </head>
+
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">Haus Sch&ouml;negg</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home" >Home</a>
+			<a href="#appartment">APPARTEMENT</a>
+      <a href="#allgemeine">Allgemeines</a>
+			<a href="#preise" >Preise</a>
+			<a href="#anreise" >Anreise</a>
+			<a href="#contact">Kontakt</a>
+			<a href="mailto:office@hausschoenegg.at"><i class="icon-envelope"></i></a>
+            <a href="index.html"><i>DE</i></a>
+            <!-- <a href="index_en.html"><i>EN</i></a> -->
+		</div>
+
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+
+
+
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<br>
+			<h1>Haus Sch&ouml;negg
+        </h1>
+			<h2>Ferienappartement St.Anton</h2>
+			<div class="row">
+				<br>
+				<br>
+				<br>
+				<div class="col-mg-8 col-mg-offset-2">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+
+	<!-- ========== WHITE SECTION ========== -->
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h3>WILLKOMMEN IM <bold>HAUS SCH&Ouml;NEGG</bold> <bold>. </h3>
+				<h3><br/>
+					Sie finden unser Haus mit drei gemütlichen Appartements in ruhiger Lage im sonnigen Ortsteil Nasserein, mit imposanten Blick auf St.Anton und seine Berglandschaft. Hier kann man einfach abschalten und die Ruhe genießen. Dennoch ist auch das lebhafte Zentrum nur 15 Gehminuten entfernt. Die Nassereinbahn, eine der Hauptzubringerbahnen in unser einzigartiges Schigebiet sowie die Schischule mit Kinderland erreicht man von uns aus zu Fuß in 10 Minuten oder mit dem gratis Schibus, eine Haltestelle ist in der Nähe.
+Erleben auch Sie einen unvergesslichen Urlaub am Arlberg – wir freuen uns auf Ihre Anfrage!
+Familie Staggl
+			</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+
+
+<!--APPARTMENT - GREY SECTION ========== -->
+<section id="appartment" name="appartment"></section>
+<div id="g">
   <div class="container">
     <div class="row">
-      <div class="col">
-        <h2 class="text-center"> WILLKOMMEN IM <bold> HAUS SCHÖNEGG</bold> </h2>
-        <h3>
-          Sie finden unser Haus mit drei gemütlichen Appartements in ruhiger Lage im sonnigen Ortsteil Nasserein, mit imposanten Blick auf St.Anton und seine Berglandschaft. Hier kann man einfach abschalten und die Ruhe genießen. Dennoch ist auch das lebhafte Zentrum nur 15 Gehminuten entfernt. Die Nassereinbahn, eine der Hauptzubringerbahnen in unser einzigartiges Schigebiet sowie die Schischule mit Kinderland erreicht man von uns aus zu Fuß in 10 Minuten auch mit dem gratis Schibus, eine Haltestelle ist in der Nähe. Erleben auch Sie einen unvergesslichen Urlaub am Arlberg – wir freuen uns auf Ihre Anfrage! Familie Staggl
-        </h3>
-      </div>
+      	<h3>APPARTEMENTS</h3>
+<!-- APPARTMENT A -->
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+         Appartement A </a>
+      </h4>
     </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">
+
+        <div class="col-lg-8 desc">
+          <h4>Informationen</h4>
+          <p><b>Befindet sich im Erdgeschoss des Hauses mit 68m<sup>2</sup> und ist f&uuml;r 5 Personen, mit einem Doppelzimmer und einem Dreibettzimmer, Bad(Badewanne, Doppelwaschbecken, F&ouml;n), WC extra, Wohnraum mit Küchenzeile, Esstisch, Kabel-TV und Terrasse.
+                    <br><br> Die Küchenzeile ist mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
+                    <br>Im Wohnraum befindet sich ein Sofa, auf dem eventuell eine zusätzliche Person nächtigen kann (nur nach vorheriger Absprache!)</b></p>
+        </div>
+        <div class="col-lg-4 desc desc-b">
+          <h4>Kontakt Daten</h4>
+          <p>
+            <i class="icon-user"></i> Barbara Staggl<br/>
+            <i class="icon-envelope"></i> <a href="mailto:office@hausschoenegg.at">office@hausschoenegg.at</a><br/>
+            <i class="icon-globe"></i><a href="https://www.hausschönegg.at/"> www.hausschönegg.at<br/>
+          </p>
+        </div>
+
+<!-- Carousell -->
+
+<div class="col-lg-8 col-lg-offset-2">
+  <div id="carousel-example-generic" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets/img/appa/item-01.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="assets/img/appa/item-02.jpg" alt="">
+      </div>
+               <div class="item">
+        <img src="assets/img/appa/item-03.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appa/item-04.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appa/item-05.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appa/item-06.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appa/item-07.jpg" alt="">
+      </div>
+        <div class="item">
+            <img src="assets/img/appa/item-08.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="assets/img/appa/item-09.jpg" alt="">
+        </div>
+    </div>
+               <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
   </div>
 </div>
 
 
-<!--Appartements -->
-<div id="grey" class="container-fluid">
-  <div class="container">
-    <div id="accordion">
-      <div id="appartement" class="card">
-        <div class="card-header">
-          <a class="card-link" data-toggle="collapse" href="#collapseOne">
-            <h2> Appartement A </h2>
-          </a>
-        </div>
-        <div id="collapseOne" class="collapse show" data-parent="#accordion">
-          <div class="card-body">
-            <p>Befindet sich im Erdgeschoss des Hauses mit 65m<sup>2</sup> und ist für <b>5</b> Personen, mit einem Doppelbett Zimmer und einem Dreibettzimmer, Bad(Badewanne, Doppelwaschbecken, Fön), WC extra, Wohnraum mit Küchenzeile, Esstisch, Kabel-TV und Terrasse.
-                      <br><br> Die Küchenzeile ist jeweils mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
-                      <br>In jedem Wohnraum befindet sich ein Sofa, in dem eventuell <b>eine zusätzliche Person<b> nächtigen kann (nur nach vorheriger Absprache!</b></b></p>
-          </div>
-        </div>
       </div>
-
-      <div id="appartement" class="card">
-        <div class="card-header">
-          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-            <h2> Appartement B </h2>
-          </a>
-        </div>
-        <div id="collapseTwo" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            <p>Befindet sich im ersten Stock des Hauses mit 65m<sup>2</sup> und ist für <b>5</b> Personen mit einem Doppelbettzimmer und einem Dreibettzimmer, Bad/WC und Dusche/WC, Wohnraum mit Küchenzeile, Esstisch, Kabel-TV und Balkon.
-            <br><br> Die Küchenzeile ist jeweils mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
-            <br>In jedem Wohnraum befindet sich ein Sofa, in dem eventuell <b>eine zusätzliche Person<b> nächtigen kann (nur nach vorheriger Absprache!)</b></b></p>
-          </div>
-        </div>
-      </div>
-
-      <div id="appartement" class="card">
-        <div class="card-header">
-          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-            <h2> Appartement C </h2>
-          </a>
-        </div>
-        <div id="collapseThree" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            <p>Befindet sich im Dachgeschoss des Hauses mit 45m<sup>2</sup> und ist für <b>4</b> Personen mit einem Doppelbettzimmer und einem Zweibettzimmer, Bad(Wanne, Doppelwaschbecken, Fön), WC extra, Wohnraum mit Küchenzeile, Esstisch, Kabel-TV und Balkon.
-            <br><br> Die Küchenzeile ist jeweils mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
-            <br>In jedem Wohnraum befindet sich ein Sofa, in dem eventuell <b>eine zusätzliche Person<b> nächtigen kann (nur nach vorheriger Absprache!</b></b></p>
-          </div>
-        </div>
-      </div>
-
     </div>
+  </div>
+<!-- APPARTMENT B -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Appartement B</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+
+        <div class="col-lg-8 desc">
+					<h4>Informationen</h4>
+					<p><b>Befindet sich im ersten Stock des Hauses mit 65m<sup>2</sup> und ist f&uuml;r 5 Personen mit einem Doppelzimmer und einem Dreibettzimmer, Bad/WC und Dusche/WC, Wohnraum mit K&uuml;chenzeile, Esstisch, Kabel-TV und Balkon.
+                    <br><br> Die Küchenzeile ist mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
+                    <br>Im Wohnraum befindet sich ein Sofa, auf dem eventuell eine zusätzliche Person nächtigen kann (nur nach vorheriger Absprache!)</b></p>
+				</div>
+				<div class="col-lg-4 desc desc-b">
+					<h4>Kontakt Daten</h4>
+					<p>
+						<i class="icon-user"></i> Barbara Staggl<br/>
+						<i class="icon-envelope"></i> <a href="mailto:office@hausschoenegg.at">office@hausschoenegg.at</a><br/>
+						<i class="icon-globe"></i><a href="https://www.hausschönegg.at/"> www.hausschönegg.at<br/>
+					</p>
+				</div>
+
+<!-- Carousel B -->
+
+<div class="col-lg-8 col-lg-offset-2">
+  <div id="carousel-example-generic1" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="6"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="7"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="8"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="9"></li>
+                 <li data-target="#carousel-example-generic1" data-slide-to="10"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets/img/appb/item-01.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="assets/img/appb/item-02.jpg" alt="">
+      </div>
+               <div class="item">
+        <img src="assets/img/appb/item-03.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appb/item-04.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appb/item-05.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appb/item-06.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appb/item-07.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appb/item-08.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appb/item-09.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appb/item-10.jpg" alt="">
+      </div>
+        <div class="item">
+            <img src="assets/img/appb/item-11.jpg" alt="">
+        </div>
+    </div>
+               <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic1" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic1" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
   </div>
 </div>
 
+      </div>
+    </div>
+  </div>
+<!-- APPARTMENT C -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Appartement C</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+
+        <div class="col-lg-8 desc">
+          <h4>Informationen</h4>
+          <p><b>Befindet sich im Dachgeschoss des Hauses mit 45m<sup>2</sup> und ist f&uuml;r 4 Personen mit einem Doppelzimmer und einem Zweibettzimmer, Bad(Badewanne, Doppelwaschbecken, F&ouml;n), WC extra, Wohnraum mit K&uuml;chenzeile, Esstisch, Kabel-TV und Balkon.
+                    <br><br> Die Küchenzeile ist mit einem 4-Platten E-Herd mit Backrohr, Kühlschrank Geschirrspüler, Filterkaffeemaschine, Wasserkocher sowie ausreichend Koch- und Essgeschirr ausgestattet.
+                    <br>Im Wohnraum befindet sich ein Sofa, auf dem eventuell eine zusätzliche Person nächtigen kann (nur nach vorheriger Absprache!</b></p>
+        </div>
+        <div class="col-lg-4 desc desc-b">
+          <h4>Kontakt Daten</h4>
+          <p>
+            <i class="icon-user"></i> Barbara Staggl<br/>
+            <i class="icon-envelope"></i> <a href="mailto:office@hausschoenegg.at">office@hausschoenegg.at</a><br/>
+            <i class="icon-globe"></i><a href="https://www.hausschönegg.at/"> www.hausschönegg.at<br/>
+          </p>
+        </div>
+
+<!-- Carousell C -->
+
+<div class="col-lg-8 col-lg-offset-2">
+  <div id="carousel-example-generic2" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets/img/appc/item-01.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="assets/img/appc/item-02.jpg" alt="">
+      </div>
+               <div class="item">
+        <img src="assets/img/appc/item-03.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appc/item-04.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appc/item-05.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appc/item-06.jpg" alt="">
+      </div>
+                <div class="item">
+        <img src="assets/img/appc/item-07.jpg" alt="">
+      </div>
+    </div>
+               <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic2" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div><!-- /container -->
+</div><!-- /g -->
+
+
+ <!-- Allgemeine Informationen -->
+ <section id="allgemeine" name="allgemeine"></section>
+	<div id="g">
+		<div class="container">
+			<div class="row">
+				<h3>Allgemeine Informationen</h3>
+				<br>
+				<br>
+				<div class="col-lg-8 desc">
+					<h4>Informationen</h4>
+					<p><ul>
+                    <li> Check-in: ab 14:00</li>
+                    <li> Check-out: bis 10:00</li>
+                    <li> Bettwäsche und Handtücher sind selbstverständlich vorhanden.</li>
+                    <li> Private Parkplätze befinden sich vor dem Haus</li>
+                    <li> <b>Wlan</b> ist im ganzen Haus <b>kostenlos</b> verfügbar </li>
+                    <li> <b>Kostenloses Depot für Ski und Skischuhe</b> bei der Nassereinbahn </li>
+                    </ul></p>
+
+                    </p>
+				</div>
+				<div class="col-lg-4 desc desc-b">
+					<h4>Kontakt Daten</h4>
+					<p>
+						<i class="icon-user"></i> Barbara Staggl<br/>
+						<i class="icon-envelope"></i> <a href="mailto:office@hausschoenegg.at">office@hausschoenegg.at</a><br/>
+						<i class="icon-globe"></i><a href="https://www.hausschönegg.at/"> www.hausschönegg.at<br/></a>
+					</p>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+
+
+	<!-- ========== CHARTS - DARK GREY SECTION ========== -->
+    <section id="preise" name="preise"></section>
+	<div id="dg">
+		<div class="container">
+			<div class="row">
+
+<div class ="col">
+  <h3>Saisonszeiten</h3>
+  <div class="table-responsive">
+  <table class="table table-hover" id="saisonszeiten">
+    <thead>
+      <tr>
+        <th>Saison 1</th>
+        <th>Saison 2</th>
+        <th>Saison 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> </td>
+        <td>15.12.2018 – 21.12.2018</td>
+        <td>30.11.2018 – 14.12.2018</td>
+      </tr>
+      <tr>
+        <td>22.12.2018 – 06.01.2019</td>
+        <td>07.01.2019 – 01.02.2019</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>02.02.2019 – 22.03.2019</td>
+        <td>23.03.2019 – 05.04.2019</td>
+        <td>06.04.2019 – 28.04.2019</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class ="col">
+  <h3>Preise 2018/19</h3>
+  <div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Bezeichnung</th>
+        <th>Grö&szlig;e Personen</th>
+        <th>Saison 1</th>
+        <th>Saison 2</th>
+        <th>Saison 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Appartment A</th>
+        <th>5</th>
+        <th>235 &euro;</th>
+        <th>230 &euro;</th>
+        <th>215 &euro;</th>
+      </tr>
+      <tr>
+        <th>Appartment B</th>
+        <th>5</th>
+        <th>240 &euro;</th>
+        <th>235 &euro;</th>
+        <th>220 &euro;</th>
+      </tr>
+      <tr>
+        <th>Appartment C</th>
+        <th>4</th>
+        <th>205 &euro;</th>
+        <th>200 &euro;</th>
+        <th>185 &euro;</th>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="col">
+  <p>Alle Preise inklusive Ust ohne Ortstaxe. Die Ortstaxe beträgt derzeit 2,60&euro; pro Person pro
+Nacht. Kinder bis 15 Jahre sind davon befreit.
+Der Kurzaufenthaltszuschlag (bis 3 Tage) beträgt 15&euro; pro Appartement pro Tag.
+Für zusätzliche Personen im Appartement (nur mit unserem Einverständnis) werden 20&euro; pro
+Tag plus Ortstaxe verrechnet.</p>
+</div>
+
+<div class="col-lg-8 desc">
+  <h4>Zahlungsbedingungen</h4>
+  <p>Wir akzeptieren <b>keine Kreditkarten!</b>
+Nur Barzahlungen vor Ort oder Überweisung auf unser Konto vor Reisebeginn!
+Bei Reservierung ist eine Anzahlung in Höhe von 200 € pro Appartement zu entrichten, die
+Bankverbindung wird Ihnen per E-Mail mitgeteilt.
+Bei späterer Anreise oder frühzeitiger Abreise wird der gesamte gebuchte Aufenthalt in Rechnung
+gestellt. </p>
+</div>
+<div class="col-lg-4 desc desc-b">
+  <h4>Unsere Stornobedingungen: </h4>
+  <p><ul>
+            <li> 90 - 30 Tage vor Anreise - <b>30&percnt;</b> des Gesamtbetrages</li>
+            <li> 30 - 14 Tage vor Anreise - <b>80&percnt;</b> des Gesamtbetrages </li>
+            <li> 14 - 0 Tage vor Anreise - <b>100&percnt;</b> des Gesamtbetrages </li>
+            </ul></p>
+</div>
+
+                <br>
+					<h4>Preisliste 2018/19 PDF</h4>
+					<br>
+					<a target="_blank" href="preisliste_18.pdf"><img src="assets/img/pdficon.png"></a>
+
+
+				</div>
+		</div><!-- /container -->
+	</div><!-- /dg -->
+
+	<section id="anreise" name="anreise"></section>
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row">
+				<h3>Anreise</h3>
+				<br>
+				<br>
+				<div class="col port-space">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.0079654368337!2d10.2775194!3d47.138110000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479cb07a6d6e0291%3A0x275cebad56036d38!2sIng.-Gomperz-Weg+24%2C+6580+St.+Anton+am+Arlberg!5e0!3m2!1sde!2sat!4v1443103738471" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /portfoliowrap -->
+
+	<!-- ========== WHITE SECTION ========== -->
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h3>GENIE&szlig;EN SIE IHREN <bold>URLAUB</bold> IM <bold>Haus Sch&ouml;negg</bold>.
+				</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+
+
+	<div id="g">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+				<br>
+				<br>
+				</div>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8 col-lg-offset-2 team">
+					<img class="img-circle" src="assets/img/team01.jpg" height="90" width="90">
+					<h4>Barbara Staggl</h4>
+					<h5><i>Familie Staggl</i></h5>
+					<p>Adresse: Ing. Gomperzweg 24, 6580 Sankt Anton am Arlberg</p>
+					<p> Telefon:+43 66473559549</p>
+					<p> Email: <a href="mailto:office@hausschoenegg.at"> office@hausschoenegg.at </a>
+					<p>
+
+					  <a href="mailto:office@hausschoenegg.at"><i class="icon-envelope"></i></a>
+
+					</p>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+
+	<!-- ========== FOOTER SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+					<h3><b>Kontaktieren Sie Uns</b></h3>
+					<br>
+					<div class="col-lg-6">
+						<h3><b>E-Mail:</b></h3>
+						<h3><a href="mailto:office@hausschoenegg.at">office@hausschoenegg.at</a></h3>
+						<br>
+					</div>
+
+					<div class="col-lg-6">
+						<h3><b>Tel:</b></h3>
+						<h3>+43 66473559549
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+  	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/scroller.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
-
 </html>
